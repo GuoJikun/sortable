@@ -1,0 +1,28 @@
+{
+  "name": "sortable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nx run-many -t dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "sass": "^1.69.3",
+    "vite": "^4.4.11",
+    "nx": "16.10.0",
+    "nx-cloud": "latest"
+  },
+  "volta": {
+    "node": "18.18.2"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "nx": {
+    "targets": {}
+  }
+}
