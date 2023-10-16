@@ -1,15 +1,31 @@
 {
-  "name": "sortable-vue",
+  "name": "ivy-sortable",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/sortable.js",
+  "module": "dist/sortable.mjs",
   "scripts": {
     "dev": "vite build -w",
     "build": "vite build"
   },
-  "keywords": [],
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "vue",
+    "frontend",
+    "sortable",
+    "drop",
+    "drag",
+    "drag and drop",
+    "drag & drop",
+    "dnd",
+    "ivy-sortable"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "sortablejs": "^1.15.0"
   }

@@ -34,7 +34,11 @@ importers:
         specifier: ^1.15.0
         version: 1.15.0
 
-  docs: {}
+  docs:
+    dependencies:
+      ivy-sortable:
+        specifier: workspace:^
+        version: link:../comp
 
 packages:
 
